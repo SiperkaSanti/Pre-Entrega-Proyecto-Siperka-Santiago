@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background: rgb(250, 135, 3);
+  width: 100%;
+  clear: both;
+  content: "";
+  display: flex;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 50px;
+  float: left;
+  padding-top: 8px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 25px 0;
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: white;
+}
+/* hasta aca es edicion del header */
+
+/* a continuacion el footer*/
+.piePag {
+  width: 100%;
+  background-color: rgb(250, 135, 3);
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.redSocial a {
+  text-decoration: none;
+  color: black;
+}
